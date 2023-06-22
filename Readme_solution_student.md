@@ -284,7 +284,7 @@ To create Launch Template, go to the EC2 console and select `Launch Template` on
 ```bash
 Launch template name                : aws_capstone_launch_template
 Template version description        : Blog Web Page version 1
-Amazon machine image (AMI)          : search `ubuntu` and select Ubuntu 18.04
+Amazon machine image (AMI)          : search `ubuntu` and select Ubuntu 18.04   *****ami-0263e4deb427da90e******
 Instance Type                       : t2.micro
 Key Pair                            : mykey.pem
 Security Groups                     : aws_capstone_EC2_sec_group
@@ -299,7 +299,7 @@ apt-get update -y
 apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
-TOKEN="XXXXXXXXXXXXXXXXXXXXX"
+TOKEN="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"
 git clone https://$TOKEN@github.com/lionsaver/aws-recapstone.git
 cd /home/ubuntu/aws-recapstone
 apt install python3-pip -y
